@@ -1,65 +1,58 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Ivan Lomeli",
+    "label": "Software Engineer",
+    "picture": "https://techfolios.github.io/images/square.jpg",
+    "email": "ilomeli1@swarthmore.edu",
+    "phone": "714-737-9224",
+    "website": "https://ilomeli450.github.io",
+    "summary": "I will be graduating from Swarthmore College with a degree in Computer Science Spring 2019.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "92704",
+      "city": "Santa Ana",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "California"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "ilomeli450",
+        "url": "http://github.com/ilomeli450"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "lomelii",
+        "url": "http://linkedin.com/in/lomelii"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
+      "name": "Computer Vision",
+      "keywords": [ unwarping-text, edge-detection, thresholding, color-segmentation
       ]
     },
     {
-      "name": "data mining",
-      "keywords": [
+      "name": "Relational Databases",
+      "keywords": [ SQL
       ]
     },
     {
-      "name": "artificial intelligence",
-      "keywords": [
+      "name": "Computer Animation",
+      "keywords": [unity, video-games, video-game-design
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [ deep-learning, transfer-learning, AdaBoost, cascade-classification, viola-Jones-object-detection
       ]
     }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "level": "Advances",
       "keywords": [
         "C",
         "C++",
@@ -83,81 +76,72 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "Swarthmore College, Swarthmore, PA",
+      "area": "Computer Science",
+      "studyType": "B.A.",
+      "startDate": "2015-09-01",
       "endDate": "Present",
-      "gpa": "",
-      "courses": [
+      "gpa": "3.1",
+      "courses": ["Computer Vision, Database Management Systems*, Animations*, Machine Learning Fundamentals, Adaptive Robotics*, Computer Networks*, Software Engineering*, Data Structures and Algorithms*, Linear Algebra , Discrete Mathematics, Engineering Methodology*, Single Variable Calculus, Mechanics*, Electrical Circuit Analysis* (* denotes lab component)"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Aerostealth Engineering",
+      "position": "Part Manufacturing and Inspection",
+      "website": "https://www.aerostealth.net/",
+      "startDate": "2017-06-08",
+      "endDate": "2017-07-24",
+      "summary": "Summer Intern",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Lather and Mill Machinery", "Precision Measuring", "Troubleshoot software" 
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Swarthmore Intercultural Center",
+      "website": "https://www.swarthmore.edu/intercultural-center",
+      "position": "Social Media Coordinator",
+      "startDate": "2016-08-01",
+      "endDate": "2017-05-01",
+      "summary": "Designed and delivered workshops that developed students' capabilities to carry out effective social media strategies of engagement, awareness raising, marketing, advertising, & storytelling.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Content Creator"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Swarthmore Student Government Organization",
+      "website": "http://sgo.swarthmore.edu/",
+      "position": "Chair of Student Life, Chair of Student Outreach",
+      "startDate": "2016-09-01",
+      "endDate": "2018-12-21",
+      "summary": "Evaluate campus concerns and work towards long-term policy solutions",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Chair of Student Outreach, 2016-2017",
+        "Webmaster"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Aurora Camacho de Schmidt Scholar Activism Recognition Award",
+      "date": "2017",
+      "awarder": "Intercultural Center",
+      "summary": "Outstanding scholarly work that interrogates social justice, equity, and community principles espoused by the IC. Innovative research projects that advance learning, dialogue, and reflection. Engagement of praxis to connect theoretical frameworks and social justice practice."
     },
     {
-      "title": "First place",
+      "title": "Richard Rubin Scholar",
       "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "awarder": "Swarthmore College",
+      "summary": "The Richard Rubin Scholar Program awards eligible students of high academic performance mentorship and intern opportunities to advance their scholastic, inter-personal, social and professional success at Swarthmore College and beyond."
+    } ,
+    {
+      "title": "Questbridge National College Match",
+      "date": "2015",
+      "awarder": "QuestBridge Foundation",
+      "summary": "Merit-based national scholarship recipient"
     }
   ],
   "references": [

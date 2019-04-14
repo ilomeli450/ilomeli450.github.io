@@ -1,61 +1,38 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/scrabble-300x300.jpg
+title: Scrabble Assistant
+permalink: projects/scrabble
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2017-08-20
 labels:
-  - Lisp
+  - C++
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+summary: A hash table implementation for a dictionary data structure. Implementation is then used to create a tool which assists in finding solutions to tiled word games (such as Scrabble). Provided is a written analysis of the performance of the hash table.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+As review for data structures, I redid a school project on hash tables. Only the public methods were provided as part of the declaration; Along with a partner, we wrote our own private fields and members. We implemented a separate chaining hash table where one of the constructors allow the user to specify a maximum load factor and the other should uses a sensible default value (e.g. 0.75). All operations on our HashTable (other than getKeys and getItems) run in O(1) average time. We used an array of statically-allocated vector objects to represent the buckets of your HashTable. Statically-allocated vectors are easier to use and less error-prone, especially when stored in an array. 
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+With a working HashTable, we wrote the Scrabble Assistant. The  application was designed in two parts: a ScrabbleAssistant class (which does all of the interesting work) and a main function (which provides the interface that allows the end user to interact with that object).
 
-To give you a flavor of the game, here is an excerpt from one run:
+The work of the ScrabbleAssistant can be broken into the following parts:
+'
+1. Keeping track of which words are legal.
+2. Finding the anagrams of a particular word.
+3. Finding the “power set” of a string.
+4. Eliminating duplicate strings in a list.
+5. Finding all of the legal plays given a string containing the player’s tiles.
+'
 
-<hr>
+My role in the team of two was to design the hash table as well as make choices for the implementation. We initially set out to use arrays, however, I chose to change our plan to involve vectors. The speed properties of vector methods allowed for our functions to run in an appropriate run time. Overall, I gained a better sense of the hash table data structure. Additionally, this project allowed for a fun, active refreshing of building classes on C++.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+We ran a peformance analysis on our hash table implementation. The results are shown below:
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+<img class="ui image" src="../images/graph.png">
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+The graph shows that our HashTable works well when given a good hashing algorithm and that it can work poorly when given a bad hashing algorithm. Part of my role in the group was determining why. I concluded the reason was more clashes. With a bad hashing functions, you would get more collusions. Collusions slow down the speed of the algorithm. Visualizing our hash table properties taught me clear ways to communicate results, an important part of computer science discourse.
 
-pickup candle
-- you are now carrying the candle -
+<a href="https://www.cs.swarthmore.edu/~zpalmer/cs35/f16/labs/08/"><i class="large file text icon "></i>Original Lab Page</a>
 
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
 

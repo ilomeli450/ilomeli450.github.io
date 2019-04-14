@@ -1,44 +1,40 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/deepart-banner-2.png
+title: Automated Graphic Design
+permalink: projects/automa
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2017-12-15
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Neural Networks
+  - Python
+  - Stylistic Design
+summary: Along with Alexander Mandel, we explore the use of a parallel-branch CNN autoencoded architecture to learn input representations and blend an output image.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/contentor.png">
+  <img class="ui image" src="../images/styleor.png">
+  <img class="ui image" src="../images/resultor.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Current graphic design processes entail using generalized styles and themes with human-made decisions of content and style interplay. The task to interplaying content and style representations has been attempted using convolutional neural networks. CNNs are trained on images and used to learn input representations. The network finds representations based on details that it learned to focus on during training. In this paper, we explore the use of a parallel-branch CNN autoencoded architecture to learn input representations and blend an output image. The unsupervised blending of features is an interesting approach to this task, removing explicit bias towards either content or style. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+<div class="ui mdium rounded images">
+<img class="ui image" src="../images/autoencode.png">
+</div>
 
-Here is some code that illustrates how we read values from the line sensors:
+Our process seeks to automate the poster-making process of graphic design. Previous work attempting similar interplaying of content and style has not proven successful in recognizing textual bodies. Most of the previous work implementations are trained on objects and thus, text appears to be generalized as an object body, indistinguishable from other content. To successfully automate graphic design, the style must be applied to the textual image, all while preserving content details. Our network is able to recognize content as words, however, it is unable to distinguish between different words. We believe the cause of this is the inability of using autoencoding to capture high-level abstract features. 
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+My role in this project included designing the ideal network architecture as well as implementing the code to synthesize style and content. I learned a lot about the process of autoencoders, something that I used to view as a blackbox mechanism. I learned the abilities and limits of autoencoders, a vital piece to the future of similar work. We concluded that autoencoders might not capture features as well as we thought they could. This would be bad for the content aspect of this project. If the details of poster cannot be accurately represented, an ideal poster cannot be formed. We found autoencoders had their advantages despite this. Data processed through autoencoders retains general information and can help in cases where details are not as important. They can also be modeled in ways that would result in faster processing, since they are composed of fewer neurons. This means they can be helpful in domains such as self-driving cars, computer vision, etc. 
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Here are some pictures that illustrates how our network blended style and content:
 
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/balmex.png">
+  <img class="ui image" src="../images/omg.png">
+  <img class="ui image" src="../images/omgex.png">
+</div>
 
 

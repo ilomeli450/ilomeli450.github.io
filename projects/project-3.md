@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/scrabble-300x300.jpg
+image: images/scrabble.jpg
 title: Scrabble Assistant
 permalink: projects/scrabble
 # All dates must be YYYY-MM-DD format!
@@ -29,7 +29,7 @@ My role in the team of two was to design the hash table as well as make choices 
 
 We ran a peformance analysis on our hash table implementation. The results are shown below:
 
-<img class="ui image" src="../images/graph.png">
+<img class="ui image" src="../images/hash-performance.png">
 
 The graph shows that our HashTable works well when given a good hashing algorithm and that it can work poorly when given a bad hashing algorithm. Part of my role in the group was determining why. I concluded the reason was more clashes. With a bad hashing functions, you would get more collusions. Collusions slow down the speed of the algorithm. Visualizing our hash table properties taught me clear ways to communicate results, an important part of computer science discourse.
 

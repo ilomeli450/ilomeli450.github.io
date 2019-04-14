@@ -30,7 +30,7 @@
   "interests": [
     {
       "name": "Computer Vision",
-      "keywords": [ unwarping-text, edge-detection, thresholding, color-segmentation
+      "keywords": [
       ]
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "name": "Machine Learning",
-      "keywords": [ deep-learning, transfer-learning, AdaBoost, cascade-classification, viola-Jones-object-detection
+      "keywords": [ deep-learning, transfer-learning, neural-networks, classification
       ]
     }
   ],
@@ -54,12 +54,15 @@
       "name": "Languages and Frameworks",
       "level": "Advances",
       "keywords": [
-        "C",
         "C++",
+        "C",
+        "C#",
+        "Python",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML",
+        "CSS",
+        "Assembly"
       ]
     },
     {
@@ -69,8 +72,12 @@
         "MacOS",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Visual Studio Code",
+        "Meteor",
+        "MongoDB",
+        "Semantic UI",
+        "IntelliJ",
+        "Visual Studio Code"
       ]
     }
   ],
@@ -82,7 +89,7 @@
       "startDate": "2015-09-01",
       "endDate": "Present",
       "gpa": "3.1",
-      "courses": ["Computer Vision, Database Management Systems*, Animations*, Machine Learning Fundamentals, Adaptive Robotics*, Computer Networks*, Software Engineering*, Data Structures and Algorithms*, Linear Algebra , Discrete Mathematics, Engineering Methodology*, Single Variable Calculus, Mechanics*, Electrical Circuit Analysis* (* denotes lab component)"
+      "courses": ["Computer Vision, Database Management Systems*, Animations*, Machine Learning Fundamentals, Adaptive Robotics*, Computer Networks*, Software Engineering*, Data Structures and Algorithms*, Computer Systems*, Linear Algebra , Discrete Mathematics, Engineering Methodology*, Single Variable Calculus, Mechanics*, Electrical Circuit Analysis* (* denotes lab component)"
       ]
     }
   ],

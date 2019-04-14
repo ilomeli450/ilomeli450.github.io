@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/deepart-banner-2.png
+image: images/starry-night.png
 title: Automated Graphic Design
 permalink: projects/automa
 # All dates must be YYYY-MM-DD format!
@@ -14,9 +14,9 @@ summary: Along with Alexander Mandel, we explore the use of a parallel-branch CN
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/contentor.png">
-  <img class="ui image" src="../images/styleor.png">
-  <img class="ui image" src="../images/resultor.png">
+  <img class="ui image" src="../images/content-ex.png">
+  <img class="ui image" src="../images/style-ex.png">
+  <img class="ui image" src="../images/result-ex.png">
 </div>
 
 Current graphic design processes entail using generalized styles and themes with human-made decisions of content and style interplay. The task to interplaying content and style representations has been attempted using convolutional neural networks. CNNs are trained on images and used to learn input representations. The network finds representations based on details that it learned to focus on during training. In this paper, we explore the use of a parallel-branch CNN autoencoded architecture to learn input representations and blend an output image. The unsupervised blending of features is an interesting approach to this task, removing explicit bias towards either content or style. 
@@ -32,9 +32,9 @@ My role in this project included designing the ideal network architecture as wel
 Here are some pictures that illustrates how our network blended style and content:
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/balmex.png">
-  <img class="ui image" src="../images/omg.png">
-  <img class="ui image" src="../images/omgex.png">
+  <img class="ui image" src="../images/balm-ex.png">
+  <img class="ui image" src="../images/woah.png">
+  <img class="ui image" src="../images/woah-x2.png">
 </div>
 
 

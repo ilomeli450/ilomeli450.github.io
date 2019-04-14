@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Screen Shot 2018-01-18 at 10.09.32 PM.png
+image: images/relaxing.png
 title: Journal Chrome Extension 
 permalink: projects/reflect
 # All dates must be YYYY-MM-DD format!

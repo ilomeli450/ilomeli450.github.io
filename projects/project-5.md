@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/relaxing.png
 title: Journal Chrome Extension 
-permalink: projects/reflect
+permalink: projects/freflect
 # All dates must be YYYY-MM-DD format!
 date: 2017-09-15
 labels:

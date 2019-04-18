@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/orangesliced.jpeg
+image: images/orangesliced.jpg
 title: Image Thresholding and Blob Tracking
 permalink: projects/thresholding_blob_tracking
 # All dates must be YYYY-MM-DD format!

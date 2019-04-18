@@ -7,8 +7,10 @@ permalink: projects/thresholding_blob_tracking
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-12
 labels:
-  - Digital Scholarship
-summary: Exploration of digital scholarship through a semester fellowship.
+  - Computer Vision
+  - Image Thresholdng
+  - Blob Tracking
+summary: Threshold a sequence of color or grayscale images to distinguish objects of interest from the background. Apply morphological operators to the thresholded images in order to remove noise and imperfections. Perform a connected components analysis to distinguish between separate objects, and to identify their locations in the image and track the connected components over time.
 ---
 
 ## Introduction 

@@ -15,8 +15,6 @@ summary: In this project, I explore the concept of laplacian pyramids and how th
 
 The concepts of laplacian pyramid building and image blending can be used to smoothly blend two images using an alpha mask as well as to build a hybrid image. 
 
-## Methods 
-
 # Obtaining and Preparing Source Images
 
 The images for the image blending task were grabbed from DuckDuckGo's image search engine. Two self-portrait paintings were chosen. The dimensions were matched using cv2.resize, according to the smallest image's dimensions. Since one of the pictures was smaller in both dimensions, there were no encountered issues with the resizing process. The two input images used in laplacian pyramid blend are shown below. When scouting for images, I attempted to find portraits where the area of one person's face was in the relative vicinity of the other.
@@ -24,7 +22,7 @@ The images for the image blending task were grabbed from DuckDuckGo's image sear
 <img class="ui medium right floated rounded image" src="../images/portraits.png">
 
 The chosen hybrid image was inspired by "On the Basis of Sex" starring Felicity Jones playing as Supreme Court Justice Ruth Bader Ginsburg. The inspirational story detailing the fight against gender discrimination deserved a feature. The images were found on DuckDuckGo's image search engine and sent to an iPhone XR, where it was cropped. The images were resized using cv2.resize, according to the smallest image's dimensions. The images found were taken from a profile angle that helped match facial features between images (eyes align with eyes, nose aligns with nose, etc.).
-<img class="ui medium right floated rounded image" src="../images/hybrid.png">
+<img class="ui medium right floated rounded image" src="../images/blendeed.png">
 
 # Generating a Laplacian image
 
@@ -36,7 +34,7 @@ The Laplacian pyramid blending performed in this project blends low-frequency co
 
 As one see in the blended image output that uses laplacian pyramids, the low-frequency content (ie: color) is blended over a larger distance, however, the result is a smooth surface that resembles an even skin tone. Another thing one can see from this blend is the left eyebrow smoothly transitioning onto the face of the original image. This highger frequency content is not blended over a large distance, making our image appear more smooth and realistic.
 
-<img class="ui medium right floated rounded image" src="../images/blended.png">
+<img class="ui medium right floated rounded image" src="../images/hybrid.png">
 
 
 # Hybrid Image 
@@ -45,14 +43,13 @@ The values used in the hybrid image generation were arrived at through a trial-a
 
 Once those featurees were recogniized, constant sigma_A was given a Gaussian standard deviation value of 100 and sigma_B was given a value of 20. The kernel for lopass(A) was set to be size (31,31) compared to the kernel used in hipass(B) which was size (7,7). The values are odd due to the requirement by $cv2.GaussianBlur$ function. The kernel used in hipass(B) iis smaller and has a smaller standard deviation because this gives enough facial features from the image that they are pronounced over the lopass(A) image without interrupting it when seen from afar. Using a lower Gaussian standard deviation or a bigger kernel would result in a more pronounced result with stronger edges. The bigger kernel and higher Gaussian standard deviation was used in lopass(A) because the goal was to have it to be blurry enough that it is unrecognizable from up close, but not too blurry that you cannot make out the person from afar.
 
+<img class="ui medium floated rounded image" src="../images/rbg.png">
+
 
 The hybrid image result can be seen from as near as normal computer posture. When up close, my friends I both recognized actress Felicity Jones.
 
 To see Ruth Bader Ginsburg, one has to step back about 2-5 steps (where one step is about a foot). 
 
-
-
-<img class="ui medium right floated rounded image" src="../images/rbg.png">
 
 ## Interactive Picture Blend
 

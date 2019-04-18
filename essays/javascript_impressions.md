@@ -13,7 +13,7 @@ labels:
 As a programming language polyglot, I was excited to learn that Javascript would be the language of choice in my Software Engineering college clourse. I had skimmed a copy of O'Reilly's squirrel-covered book titled "Learning PHP, MySQL, & Javascript" in the past. One of the course assignments for the Software Engineering class was to fulfill the Javascript portion of the online learning module on freeCodeCamp. I found the site's camel cased online icon comical.
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/Screen Shot 2018-01-22 at 5.53.57 AM.png">
+  <img class="ui image" src="../images/freecodecamp.png">
 </div>
 
 Having learned object-oriented languages in the past, the learning curve for Javascript was not steep, if noticeable at all. A lot of the data structure concepts and methods from C++ and Python translated clearly. I found Javascript to be more friendly for software engineering purposes, mainly due to not having to specify types outside of their initialization. The learning occurred swiftly, which I am thinking ocurred mostly due to the online model. The model blended explanation, coding practice, and assessment into one. I was able to learn about a concept, practice it in code, and move on to the next after showing proficiency. I could also go back and receive needed clarity on concepts. This gave way for a different pace than did the O'Reilly learning method. It was in this questioning that I found the benefits of flipped-classroom models of learning. 
@@ -26,5 +26,5 @@ I had the priviledge of being taught by flipped-classroom trailblazer teacher, C
 My Software Engineering course is modeled similarly, and I belive this model of teaching enabled my Javascript learning experience to be a positive one. The course features Workout of the Day (WODs), a take on crossfit workouts. These exercises quiz us on concepts in a fun and engaging manner that both challenges and prepares us for in-class assessment. I cannot think of better practical practice for future technical internship coding challenges. I have found this approach to interview preparation to be more inviting and stimulating. Will I ditch my squirrel covered books from now on? Maybe not fully, but I will consider supplemental ways of learning. 
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/IMG_3011.JPG">
+  <img class="ui image" src="../images/oreilly.JPG">
 </div>

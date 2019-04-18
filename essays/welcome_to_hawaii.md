@@ -23,7 +23,7 @@ First weekend into the Spring semester of my junior year of college at the Unive
 The above description was caused by a tiny human mistake. An erraneous click of a mouse. The screen the person was looking at is said to be the following (according to Honolulu Civil Beat):
 
 <div class="ui medium rounded images">
-  <img class="ui image" src="../images/screen.jpg">
+  <img class="ui image" src="../images/UIfault.jpg">
 </div>
 
 Many were relived, others upset, mad, and among many confused. How can a human make such a grand mistake? Wasn't there a sequential order to issuing such alert? Whose fault was it REALLY? My answer: the User Interface of choice. As humans we are aware that communication is very important. How we present information, I would say, is just as important as the facts themselves. If that menu had a cleaner, more dynamic look than look like clickable URLs, mistakes, such as the one described above, would occur less or cease to exist at all. The solution to minize or avoid such mistakes would be a streamlined, dynamic, clear user interface.

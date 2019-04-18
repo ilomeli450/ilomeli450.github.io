@@ -6,7 +6,7 @@
     "email": "ilomeli1@swarthmore.edu",
     "phone": "714-737-9224",
     "website": "https://ilomeli450.github.io",
-    "summary": "I will be graduating from Swarthmore College with a degree in Computer Science Spring 2019.",
+    "summary": "An aspiring software engineer graduating from Swarthmore College Spring 2019. A computer science major seeking full-time employmeent in the greater Southern California area.",
     "location": {
       "address": "",
       "postalCode": "92704",
@@ -95,14 +95,36 @@
   ],
   "work": [
     {
+      "company": "Swarthmore Library Lab Fellowship",
+      "position": "Fellow",
+      "website": "http://ds.swarthmore.edu",
+      "startDate": "2018-10-08",
+      "endDate": "2018-12-20",
+      "summary": "Engaged in theory and practice of digital scholarship. Gained hands-on experience with web development and design, digital media, text analysis and data visualization. Obtained Doaim Validateed-type SSL certificate for McCabe Library infrastructure. Automated the process of certificate renewal.",
+      "highlights": [
+        "Digital Scholarship", "IoT", "SSL" , "Certbot"
+      ]
+    },
+    {
       "company": "Aerostealth Engineering",
       "position": "Part Manufacturing and Inspection",
       "website": "https://www.aerostealth.net/",
       "startDate": "2017-06-08",
       "endDate": "2017-07-24",
-      "summary": "Summer Intern",
+      "summary": "Worked with lather and mill machinery producing parts for different clients (i.e: Space X). Learned how to use precision measuring tools to analyze the produced parts for quality.",
       "highlights": [
         "Lather and Mill Machinery", "Precision Measuring", "Troubleshoot software" 
+      ]
+    }, 
+    {
+      "company": "Snell & Wilmer L.L.P.",
+      "position": "Part Manufacturing and Inspection",
+      "website": "https://www.aerostealth.net/",
+      "startDate": "2014-06-08",
+      "endDate": "2014-08-24",
+      "summary": "Interned under the Central Record’s department of a top international law firm that specializes in the areas of Intellectual Property Law, Employment law, Real State, and many others. Managed case files through record-keeping software used to track down files from all global locations. Awarded the top-tier monetary scholarship of excellence award.",
+      "highlights": [
+        "Record Keeping Software", "Central Records", "IP Mentorship" 
       ]
     }
   ],
@@ -137,6 +159,12 @@
       "date": "2017",
       "awarder": "Intercultural Center",
       "summary": "Outstanding scholarly work that interrogates social justice, equity, and community principles espoused by the IC. Innovative research projects that advance learning, dialogue, and reflection. Engagement of praxis to connect theoretical frameworks and social justice practice."
+    },
+    {
+      "title": "Philip H. Barley '66 Memorial Scholarship",
+      "date": "2016",
+      "awarder": "Swarthmore College",
+      "summary": "The scholarship provides financial assistance for a junior or senior who has demonstrated outstanding leadership qualities at Swarthmore."
     },
     {
       "title": "Richard Rubin Scholar",

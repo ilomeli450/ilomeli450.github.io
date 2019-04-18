@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/relaxing.png
-title: Journal Chrome Extension 
+title: Reflect Journal Chrome Extension 
 permalink: projects/freflect
 # All dates must be YYYY-MM-DD format!
 date: 2017-09-15

@@ -130,6 +130,17 @@
   ],
   "volunteer": [
     {
+      "organization": "Water Polo Club Sport Captain",
+      "website": "https://www.swarthmore.edu/living-swarthmore/clubs-activities",
+      "position": "Captain",
+      "startDate": "2015-10-01",
+      "endDate": "2019-04-01",
+      "summary": "Organize weekly practices and a yearly season.",
+      "highlights": [
+        "Content Creator"
+      ]
+    },
+    {
       "organization": "Swarthmore Intercultural Center",
       "website": "https://www.swarthmore.edu/intercultural-center",
       "position": "Social Media Coordinator",
@@ -150,6 +161,17 @@
       "highlights": [
         "Chair of Student Outreach, 2016-2017",
         "Webmaster"
+      ]
+    },
+    {
+      "organization": "Swarthmore Varsity Men Swim",
+      "website": "https://swarthmoreathletics.com/roster.aspx?rp_id=2880",
+      "position": "freestyle, butterfly",
+      "startDate": "2015-09-01",
+      "endDate": "2016-04-01",
+      "summary": "Developed organization and time management skills by balancing academics and varsity athletics. Commit over 25 hours each week. Acquired experience performing in high pressure situations.",
+      "highlights": [
+        "Student Athlete"
       ]
     }
   ],

@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/orangesliced.jpg
+image: images/ml.jpg
 title: MNIST Data Machine Learning
 permalink: projects/thresholding_blob_tracking
 # All dates must be YYYY-MM-DD format!

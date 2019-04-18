@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/orangesliced.jpg
 title: Image Thresholding and Blob Tracking
-permalink: projects/thresholding_blob_tracking
+permalink: projects/cthresholding_blob_tracking
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-12
 labels:

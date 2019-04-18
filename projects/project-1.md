@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/ml.jpg
 title: MNIST Data Machine Learning
-permalink: projects/thresholding_blob_tracking
+permalink: projects/mnistml
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-02
 labels:

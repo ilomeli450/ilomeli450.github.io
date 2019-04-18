@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/scrabble.jpg
 title: Scrabble Assistant
-permalink: projects/scrabble
+permalink: projects/gscrabble
 # All dates must be YYYY-MM-DD format!
 date: 2017-08-20
 labels:

@@ -4,7 +4,6 @@ type: project
 image: images/starry-night.png
 title: Automated Graphic Design
 permalink: projects/automa
-Projecturl: https://www.cs.swarthmore.edu/~meeden/cs81/f17/projects/AlexIvan.pdf
 # All dates must be YYYY-MM-DD format!
 date: 2017-12-15
 labels:
@@ -12,6 +11,7 @@ labels:
   - Python
   - Stylistic Design
 summary: Along with Alexander Mandel, we explore the use of a parallel-branch CNN autoencoded architecture to learn input representations and blend an output image.
+projecturl: https://www.cs.swarthmore.edu/~meeden/cs81/f17/projects/AlexIvan.pdf
 ---
 
 

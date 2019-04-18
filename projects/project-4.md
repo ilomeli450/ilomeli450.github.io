@@ -24,25 +24,20 @@ Initially, there was an array of available options for processing their video fr
 
 RGB Thresholding was the method used to threshold the video frames. The cv2 functions cv2.inRange takes in upper and lower HSV boundaries parameters. This defines the color space our object appears in. The outcome of the function is a binary mask. By using this method of thresholding I had to choose hard-coded values representing an HSV color range for orange. The range represents the total space in HSV that the object could exist in. The system is therefore limited by that specification. To find a blue colored object, the HSV range would have to be defined as well as its minimum and maximum. It is important to note that this method also works because there are no other orange-colored objects in our scene that the mask could pick up as other objects of interest. The system could have complications if another orange object or an object that wasn’t particularly orange but exists within our HSV color range was in the scene. The system implementation should, however, do well in different brightness conditions. As long as different brightness does not lead to the introduction of different colored hues, the given HSV range should account for brighter values of the color orange as well as dimmer values of the color orange. I now explore the methods used in the system.
 
-<div class="ui small rounded images">
-	<img class="ui image" src="../images/HSV.png">
-</div>
+<img class="ui medium right floated rounded image" src="../images/HSV.png">
 
    Thresholded images are not always perfect, sometimes parts of the scene can be detected as an object of interest when it is simply noise or an object improperly picked up by our thresholding method. In the scene of the orange, it seems that light bouncing from the surface of the orange was often believed to be a small orange speckle itself and identified as a connected non-zero pixel component. Morphological operators can be applied to our thresholded binary image to avoid noise and speckles.
    
-<div class="ui small rounded images">
- <img class="ui image" src="../images/orange.png">
-</div>
+
+<img class="ui medium centered floated rounded image" src="../images/orange1.png">
 
    Before thresholding, an initial Gaussian blur was performed on the original color frame in order to reduce high frequency noise and put emphasis on structural objects. No down sampling was performed as the video was taken on an iPhone XR and the processing of frames was not taking painstakingly long. The image was then converted to HSV color space in order to use obtain the thresholded mask image. This was not enough to get rid of extra objects, as seen in the images below.
-<div class="ui small rounded images">
- <img class="ui image" src="../images/orange2.png">
-</div>
+
+<img class="ui medium centered floated rounded image" src="../images/orange2.png">
    After thresholding, dilation was used to get rid of the speckles that seem to reflect off the orange’s surface. Since these speckles appeared near the edges of the orange silhouette, a dilating morphological operator made most since. Dilating would make the orange area bigger, absorbing the extra speckles into the larger orange area.
    
-<div class="ui small rounded images">
- <img class="ui image" src="../images/orange3.png">
-</div>
+
+<img class="ui medium centered floated rounded image" src="../images/orange3.png">
 
 ## Results 
 
@@ -60,4 +55,4 @@ RGB Thresholding was the method used to threshold the video frames. The cv2 func
 
    Future applications could include estimating object speed from position plots or individual player sports tracking, among many different possibilities. Morphological operators prove to be simple yet helpful in isolate our object. An extension of this system would be to track two orange objects and record both object’s position over time separately.
    
-<a href="https://github.com/ilomeli450/Thresholding-And-Blob-Tracking"><i class="large github icon "></i>Github</a>
+Source: <a href="https://github.com/ilomeli450/Thresholding-And-Blob-Tracking"><i class="large github icon"></i>Github Repo</a>

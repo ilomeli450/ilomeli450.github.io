@@ -31,7 +31,7 @@ RGB Thresholding was the method used to threshold the video frames. The cv2 func
    Thresholded images are not always perfect, sometimes parts of the scene can be detected as an object of interest when it is simply noise or an object improperly picked up by our thresholding method. In the scene of the orange, it seems that light bouncing from the surface of the orange was often believed to be a small orange speckle itself and identified as a connected non-zero pixel component. Morphological operators can be applied to our thresholded binary image to avoid noise and speckles.
    
 
-<img class="ui large centered rounded image" src="../images/orange1.png">
+<img class="ui large centered rounded image" src="../images/orange.png">
 
    Before thresholding, an initial Gaussian blur was performed on the original color frame in order to reduce high frequency noise and put emphasis on structural objects. No down sampling was performed as the video was taken on an iPhone XR and the processing of frames was not taking painstakingly long. The image was then converted to HSV color space in order to use obtain the thresholded mask image. This was not enough to get rid of extra objects, as seen in the images below.
 

@@ -22,7 +22,7 @@ The images for the image blending task were grabbed from DuckDuckGo's image sear
 <img class="ui medium right floated rounded image" src="../images/portraits.png">
 
 The chosen hybrid image was inspired by "On the Basis of Sex" starring Felicity Jones playing as Supreme Court Justice Ruth Bader Ginsburg. The inspirational story detailing the fight against gender discrimination deserved a feature. The images were found on DuckDuckGo's image search engine and sent to an iPhone XR, where it was cropped. The images were resized using cv2.resize, according to the smallest image's dimensions. The images found were taken from a profile angle that helped match facial features between images (eyes align with eyes, nose aligns with nose, etc.).
-<img class="ui medium right floated rounded image" src="../images/blendeed.png">
+<img class="ui medium right floated rounded image" src="../images/blended.png">
 
 # Generating a Laplacian image
 

@@ -10,7 +10,7 @@ labels:
 ---
 
 <div class="ui medium rounded images">
-  <img class="ui image" src="../images/IMG_1510.jpg">
+  <img class="ui image" src="../images/magillwalk.jpg">
 </div>
 
 A son of immigrant parents steps onto the campus of an elite liberal arts institution. Quickly, the 11 AP classes blur against $50k high school education price tags. In high school, he felt taking the highest level classes would help further him. Never did it occur that elsewhere, there were people with better resources receiving better quality instruction on the same topics.  He is no longer alike 96% of his school's ethnic population; in fact, he is now a minority. He hears Spanish words from his international classmates as they talk about their abroad experiences. Class registration begins and his big aspirations reflect the size of his parent's sacrifices. He feels the pressure to be the family's next monetary supplier. "Perfect, an engineer it is," he thinks as he registers for courses. He then recalls his heart and passion - making an impact. He thinks of law. He considers International Relations, but he remains on the engineering track.

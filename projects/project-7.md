@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/fit.png
-title: Exercise Web App 
+title: Web app Fit Yonder
 permalink: projects/efityonder
 # All dates must be YYYY-MM-DD format!
 date: 2018-05-15

@@ -48,4 +48,4 @@ RGB Thresholding was the method used to threshold the video frames. The cv2 func
 
    Future applications could include estimating object speed from position plots or individual player sports tracking, among many different possibilities. Morphological operators prove to be simple yet helpful in isolate our object. An extension of this system would be to track two orange objects and record both object’s position over time separately.
    
-<a href="https://github.com/Reflect-Swarthmore/reflect"><i class="large github icon "></i>Github</a>
+<a href="https://github.com/ilomeli450/Thresholding-And-Blob-Tracking"><i class="large github icon "></i>Github</a>

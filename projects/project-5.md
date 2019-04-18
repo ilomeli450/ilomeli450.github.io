@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/grumpy.jpg
+image: images/grumpy.png
 title: Laplacian Pyramids and Image Blending
 permalink: projects/laplacian_image_blending
 # All dates must be YYYY-MM-DD format!

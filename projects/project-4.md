@@ -5,7 +5,7 @@ image: images/slide-1-728.jpg
 title: Image Thresholding and Blob Tracking
 permalink: projects/thresholding_blob_tracking
 # All dates must be YYYY-MM-DD format!
-date: 2018-10-25
+date: 2019-02-12
 labels:
   - Digital Scholarship
 summary: Exploration of digital scholarship through a semester fellowship.

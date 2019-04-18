@@ -42,9 +42,9 @@ RGB Thresholding was the method used to threshold the video frames. The cv2 func
    The position of our object can be tracked over time now that we are able to distinguish the object in the scene (the orange) from the background. To plot the position of the object over time, the centroid of the connected component that is perceived to be our object is plotted in each frame. The result is a continous plot of our object’s trajectory over time.
 
 
-## Discussion and Conclusion
+## TA-DAH! 
 
-   The system is able to distinguish objects in the frame using RGB-thresholding. The possible color values of our object are hard-coded, making it specific to locating objects within the specified color range. Thresholding would only work if the background is of a different color than the object; Otherwise, the object would be confused with the background and the system would confuse it for a connected component. The system uses Gaussian blur and dilation to remove noise and speckles from the video frames. Once thr object is clearly distinguishable, the object’s centroid is tracked and recorded over time. The result is a smooth trajectory showing the path the orange took.
+   The system is able to distinguish objects in the frame using RGB-thresholding. The possible color values of our object are hard-coded, making it specific to locating objects within the specified color range. Thresholding would only work if the background is of a different color than the object; Otherwise, the object would be confused with the background and the system would confuse it for a connected component. The system uses Gaussian blur and dilation to remove noise and speckles from the video frames. Once the object is clearly distinguishable, the object’s centroid is tracked and recorded over time. The result is a smooth trajectory showing the path the orange took.
 
    Future applications could include estimating object speed from position plots or individual player sports tracking, among many different possibilities. Morphological operators prove to be simple yet helpful in isolate our object. An extension of this system would be to track two orange objects and record both object’s position over time separately.
    

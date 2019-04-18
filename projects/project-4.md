@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/starry-night.png
-title: Automated Graphic Design
+title: Graphic Design Automation
 permalink: projects/dautoma
 # All dates must be YYYY-MM-DD format!
 date: 2017-12-15

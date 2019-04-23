@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/catalyst.png
+image: images/fishbot.png
 title: Catalyst - Unity 2D Scroller
 permalink: projects/efityonder
 # All dates must be YYYY-MM-DD format!

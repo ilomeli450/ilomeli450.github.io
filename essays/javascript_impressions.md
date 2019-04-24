@@ -10,7 +10,7 @@ labels:
   - Object-oriented
 ---
 
-As a programming language polyglot, I was excited to learn that Javascript would be the language of choice in my Software Engineering college clourse. I had skimmed a copy of O'Reilly's squirrel-covered book titled "Learning PHP, MySQL, & Javascript" in the past. One of the course assignments for the Software Engineering class was to fulfill the Javascript portion of the online learning module on freeCodeCamp. I found the site's camel cased online icon comical.
+I was excited to learn that Javascript would be the language of choice in my Software Engineering college course. I had skimmed a copy of O'Reilly's squirrel-covered book titled "Learning PHP, MySQL, & Javascript" in the past. One of the course assignments for the Software Engineering class was to fulfill the Javascript portion of the online learning module on freeCodeCamp. I found the site's camel cased online icon comical.
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/freecodecamp.png">

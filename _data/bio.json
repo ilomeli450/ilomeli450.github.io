@@ -5,7 +5,7 @@
     "picture": "https://ilomeli450.github.io/images/me.jpg",
     "email": "ilomeli1@swarthmore.edu",
     "phone": "714-737-9224",
-    "website": "https://ilomeli450.github.io",
+    "website": "https://www.ivanrlomeli.com",
     "summary": "An aspiring software engineer graduating from Swarthmore College Spring 2019. Computer science major seeking full-time employment in the greater Southern California area.",
     "location": {
       "address": "",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Computer Animation",
-      "keywords": [unity, video-games, video-game-design
+      "keywords": [unity, video-game-development
       ]
     },
     {
@@ -76,8 +76,7 @@
         "Meteor",
         "MongoDB",
         "Semantic UI",
-        "IntelliJ",
-        "Visual Studio Code"
+        "IntelliJ"
       ]
     }
   ],
@@ -111,7 +110,7 @@
       "website": "https://www.aerostealth.net/",
       "startDate": "2017-06-08",
       "endDate": "2017-07-24",
-      "summary": "Operated lathe and milling machinery to produce parts for outsourced clients (including SpaceX). Analyzed production parts for quality using precision measuring tools (caliper and laser based)",
+      "summary": "Operated lathe and milling machinery to produce parts for outsourced clients (ie: SpaceX). Analyzed production parts for quality using precision measuring tools (caliper and laser based)",
       "highlights": [
         "Lathe and Milling Machinery", "Precision Measuring", "Troubleshoot software" 
       ]
@@ -122,7 +121,7 @@
       "website": "https://www.swlaw.com/",
       "startDate": "2014-06-08",
       "endDate": "2014-08-24",
-      "summary": "Interned under the Central Record’s department of a top international law firm that specializes in the areas of Intellectual Property Law, Employment law, Real State, and many others. Managed case files through record-keeping software used to track down files from all global locations. Awarded the top-tier monetary scholarship of excellence award.",
+      "summary": "Interned under the Central Record’s department of a top international law firm that specializes in the areas of Intellectual Property Law, Employment law, Real State, and many others. Managed case files through record-keeping software used to track and maintain files from all global locations. Awarded the top-tier monetary scholarship of excellence award.",
       "highlights": [
         "Record Keeping Software", "Central Records", "IP Mentorship" 
       ]
@@ -135,9 +134,8 @@
       "position": "Captain",
       "startDate": "2015-10-01",
       "endDate": "2019-04-01",
-      "summary": "Organize weekly practices and a yearly season.",
+      "summary": "Host weekly practices and organize seasonal games.",
       "highlights": [
-        "Content Creator"
       ]
     },
     {
@@ -180,13 +178,13 @@
       "title": "Aurora Camacho de Schmidt Scholar Activism Recognition Award",
       "date": "2017",
       "awarder": "Intercultural Center",
-      "summary": "Outstanding scholarly work that interrogates social justice, equity, and community principles espoused by the IC. Innovative research projects that advance learning, dialogue, and reflection. Engagement of praxis to connect theoretical frameworks and social justice practice."
+      "summary": "This award honors outstanding scholarly work that interrogates social justice, equity, and community principles espoused by the Swarthmore Intercultural Center. Recipient demonstrates engagement of praxis to connect theoretical frameworks and social justice practice."
     },
     {
       "title": "Philip H. Barley '66 Memorial Scholarship",
       "date": "2016",
       "awarder": "Swarthmore College",
-      "summary": "The scholarship provides financial assistance for a junior or senior who has demonstrated outstanding leadership qualities at Swarthmore."
+      "summary": "The scholarship provides financial assistance for a junior or senior who has demonstrated outstanding leadership qualities at Swarthmore College."
     },
     {
       "title": "Richard Rubin Scholar",

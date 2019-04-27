@@ -4,9 +4,9 @@
 # Edit next line, providing your own name.
 title: Ivan Lomeli | Professional Portfolio
 # Edit next line, replacing 'techfolios' with your github username
-url: "https://ilomeli450.github.io"
+url: "https://www.ivanrlomeli.com"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: ""
+baseurl: "https://ilomeli450.github.io"
 
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
@@ -17,6 +17,7 @@ theme-home: theme-home-builtin-1.html
 theme-projects: theme-projects-builtin-2.html
 theme-essays: theme-essays-builtin-1.html
 theme-bio: theme-bio-builtin-1.html
+theme-portfolio: theme-portfolio-1.html
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
 rouge-theme: igorpro

@@ -105,17 +105,6 @@
       ]
     },
     {
-      "company": "LaunchDeck",
-      "position": "Treasurer",
-      "website": "https://www.sccs.swarthmore.edu/users/20/jjin3/",
-      "startDate": "2016-10-00",
-      "endDate": "2017-5-5",
-      "summary": "Sought funding opportunities for student developers on campus. Managed yearly budget, allocating funds to student projects deemed worthwhile by LaunchDeck board.",
-      "highlights": [
-        "Project Funding"
-      ]
-    },
-    {
       "company": "Aerostealth Engineering",
       "position": "Part Manufacturing and Inspection",
       "website": "https://www.aerostealth.net/",
@@ -170,6 +159,17 @@
       "highlights": [
         "Chair of Student Outreach, 2016-2017",
         "Webmaster"
+      ]
+    },
+    {
+      "company": "LaunchDeck",
+      "position": "Treasurer",
+      "website": "https://www.sccs.swarthmore.edu/users/20/jjin3/",
+      "startDate": "2016-10-00",
+      "endDate": "2017-5-5",
+      "summary": "Sought funding opportunities for student developers on campus. Managed yearly budget, allocating funds to student projects deemed worthwhile by LaunchDeck board.",
+      "highlights": [
+        "Project Funding"
       ]
     },
     {

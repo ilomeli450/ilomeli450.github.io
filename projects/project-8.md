@@ -13,5 +13,5 @@ labels:
   - Video Game Development
   - SCRUM
 summary: A 2.5D scroller game with the goal of sending an implicit message that we as humans must take action about impending environmental issues
-projecturl: https://ilomeli450.github.io/fishbot/
+projecturl: http://www.ivanrlomeli.com/fishbot/
 ---

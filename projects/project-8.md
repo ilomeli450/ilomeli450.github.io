@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/fishbot.png
-title: Catalyst - Unity 2D Scroller
+title: Fishbot - Unity 2D Scroller
 permalink: projects/efityonder
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-22
@@ -13,5 +13,5 @@ labels:
   - Video Game Development
   - SCRUM
 summary: A 2.5D scroller game with the goal of sending an implicit message that we as humans must take action about impending environmental issues
-projecturl: https://ilomeli450.github.io/catalyst/
+projecturl: https://ilomeli450.github.io/fishbot/
 ---

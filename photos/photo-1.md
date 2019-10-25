@@ -3,7 +3,7 @@ layout: photo
 type: photo
 image: photos/IMG_3948.jpg
 title: Downtown Pittsburgh
-permalink: none
+permalink: photos/downtown_pittsburgh
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-02
 labels:

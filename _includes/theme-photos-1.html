@@ -1,6 +1,6 @@
 <div style="padding-top: 20px" class="ui container ">
 
-  <div class="ui stackable centered four cards">
+  <div class="ui container">
     {% assign photo_pages = site.photos | where: "type", "photo" | sort: "date" | reverse %}
     {% for photo in photo_pages %}
       {% unless photo.draft %}

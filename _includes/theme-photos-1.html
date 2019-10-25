@@ -1,5 +1,12 @@
 <div style="padding-top: 20px" class="ui container ">
 
-  <img class="ui massive image" src="/photos/IMG_3948.jpg">
-  
+  <div class="ui stackable centered four cards">
+    {% assign photo_pages = site.photos | where: "type", "photo" | sort: "date" | reverse %}
+    {% for photo in photo_pages %}
+      {% unless photo.draft %}
+        {% include photo-frame.html page=page %}
+      {% endunless %}
+    {% endfor %}
+  </div>
+
 </div>

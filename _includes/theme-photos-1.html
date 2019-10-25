@@ -1,12 +1,8 @@
 <div style="padding-top: 20px" class="ui container ">
-
-  <div class="ui container">
-    {% assign photo_pages = site.photos | where: "type", "photo" | sort: "date" | reverse %}
-    {% for photo in photo_pages %}
-      {% unless photo.draft %}
-        {% include photo-frame.html page=page %}
-      {% endunless %}
-    {% endfor %}
-  </div>
-
+  {% assign photo_pages = site.photos | where: "type", "photo" | sort: "date" | reverse %}
+  {% for photo in photo_pages %}
+    {% unless photo.draft %}
+      {% include photo-frame.html page=page %}
+    {% endunless %}
+  {% endfor %}
 </div>

@@ -12,5 +12,3 @@ labels:
 summary: Flatiron at the corner of Liberty and Seventh
 ---
 
-<img class="ui medium right floated rounded image" src="../images/table.png">
-<img class="ui massive image" src="/photos/IMG_3948.jpg">

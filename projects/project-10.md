@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/tweet.svg
+image: images/twitter.png
 title: Tweets and networks
 permalink: projects/twittertests
 # All dates must be YYYY-MM-DD format!

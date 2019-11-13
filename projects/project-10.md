@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/catfilter.jpg
+image: images/UI.png
 title: Catstagram
 permalink: projects/mvcfilters
 # All dates must be YYYY-MM-DD format!

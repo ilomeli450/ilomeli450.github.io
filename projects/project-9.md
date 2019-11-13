@@ -29,9 +29,17 @@ The applicaiton interface features a tool bar implemented with GTK#'s widgets. T
 The user is provided with multiple features including exit from the application by quitting from the menu bar or closing the window, opening/saving image, adding/deleting layer images, and moving/scaling layers. 
 
 ## Architecture
+
+
 <img class="ui medium left floated rounded image" src="../images/mvc.png">
-This application uses the model-view-controller design pattern, allowing independent user-interface and backend models. The view-controller component is implemented in a class called MainWindow while the model component is implemented in the CompositeModel class. The event flow is managed with a publisher/subscriber API. MainWindow creates the menubar, toolbar, and canvas, registering callbacks on these components and modifying the back-end model. It also registers a callback on the CompositeModel to allow the canvas to update according to backend changes. The model component (CompositeModel) contains the base and composite images, along with a list of layers. 
+This application uses the model-view-controller design pattern, allowing independent user-interface and backend models. The view-controller component is implemented in a class called MainWindow while the model component is implemented in the CompositeModel class. 
+
+
+The event flow is managed with a publisher/subscriber API. MainWindow creates the menubar, toolbar, and canvas, registering callbacks on these components and modifying the back-end model. It also registers a callback on the CompositeModel to allow the canvas to update according to backend changes. The model component (CompositeModel) contains the base and composite images, along with a list of layers. 
 <img class="ui medium right floated rounded image" src="../images/pub.png">
+
+
+
 
 
 

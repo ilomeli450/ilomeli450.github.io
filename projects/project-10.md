@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/twitter.png
-title: Tweets and networks
+title: Tweets and social networks
 permalink: projects/twittertests
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-17
@@ -39,3 +39,7 @@ The method guessFollowsGraph() attempts to create a social network based on peop
 
 
 The influencers() method returns a list of people ranked by their influencee (number of followers). For these methods, hashtables were made to infer a social network. The use of this data structure was determined based on speed and accuracy.
+
+
+
+This testing implementation is borrowed from <a href="https://ocw.mit.edu/ans7870/6/6.005/s16/psets/ps1/">MIT's</a>

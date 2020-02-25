@@ -82,6 +82,17 @@
   ],
   "education": [
     {
+      "company": "Ocean Renaissance, LLC",
+      "position": "The Sea Has Many Voices Webmaster",
+      "website": "https://theseahasmanyvoices.com/",
+      "startDate": "2020-01-01",
+      "endDate": "Present",
+      "summary": "Design and implement website, updating with weekly podcast updates and descriptions.",
+      "highlights": [
+        "Wordpress", "Divi", "Web Development" 
+      ]
+    }, 
+    {
       "institution": "Swarthmore College, Swarthmore, PA",
       "area": "Computer Science",
       "studyType": "B.A.",
